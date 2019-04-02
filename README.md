@@ -12,9 +12,22 @@ kitura init
 
 ## Getting started with this project
 
+#### Mac
+
+```sh
+git clone git@github.com:ha1f/kituraSample.git
+swift package generate-xcodeproj
+open kituraSample.xcodeproj
+```
+
+And Run!
+
+#### Linux
+
 ```sh
 git clone git@github.com:ha1f/kituraSample.git
 swift build
+.build/debug/kituraSample
 ```
 
 # 以下デフォルト生成
