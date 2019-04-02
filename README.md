@@ -1,11 +1,20 @@
 # Kitura 今更触ってみた
 
+## How to set up Kitura project
+
 https://www.kitura.io/guides/gettingstarted.html
 
 ```sh
 brew tap ibm-swift/kitura
 brew install kitura
 kitura init
+```
+
+## Getting started with this project
+
+```sh
+git clone git@github.com:ha1f/kituraSample.git
+swift build
 ```
 
 # 以下デフォルト生成

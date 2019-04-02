@@ -540,20 +540,13 @@
          );
       };
       "OBJ_10" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_11",
-            "OBJ_12",
-            "OBJ_13",
-            "OBJ_14"
-         );
-         name = "Application";
-         path = "Sources/Application";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "InitializationError.swift";
+         sourceTree = "<group>";
       };
       "OBJ_100" = {
          isa = "PBXFileReference";
-         path = "envplugin.h";
+         path = "APIConnector.h";
          sourceTree = "<group>";
       };
       "OBJ_1000" = {
@@ -587,13 +580,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -640,13 +633,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -691,7 +684,7 @@
       };
       "OBJ_1007" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_32";
+         fileRef = "OBJ_41";
       };
       "OBJ_1008" = {
          isa = "PBXFrameworksBuildPhase";
@@ -725,12 +718,10 @@
          fileRef = "SwiftMetrics::SwiftBAMDC::Product";
       };
       "OBJ_101" = {
-         isa = "PBXGroup";
-         children = (
-         );
-         name = "paho";
-         path = ".build/checkouts/omr-agentcore--7486704100823265938/src/paho";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         name = "module.modulemap";
+         path = "/Users/ST20591/git/swift/kituraSample/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin/module.modulemap";
+         sourceTree = "<group>";
       };
       "OBJ_1010" = {
          isa = "PBXBuildFile";
@@ -775,11 +766,9 @@
       "OBJ_102" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_103",
-            "OBJ_104"
          );
-         name = "hcapiplugin";
-         path = ".build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin";
+         name = "paho";
+         path = ".build/checkouts/omr-agentcore-8175019746655520454/src/paho";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_1020" = {
@@ -823,9 +812,14 @@
          fileRef = "omr-agentcore::hcapiplugin::Product";
       };
       "OBJ_103" = {
-         isa = "PBXFileReference";
-         path = "APIConnector.cpp";
-         sourceTree = "<group>";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_104",
+            "OBJ_105"
+         );
+         name = "cpuplugin";
+         path = ".build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_1030" = {
          isa = "PBXBuildFile";
@@ -868,13 +862,8 @@
          target = "Kitura-net::KituraNet";
       };
       "OBJ_104" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_105",
-            "OBJ_106"
-         );
-         name = "include";
-         path = "include";
+         isa = "PBXFileReference";
+         path = "cpuplugin.cpp";
          sourceTree = "<group>";
       };
       "OBJ_1040" = {
@@ -918,8 +907,12 @@
          target = "omr-agentcore::cpuplugin";
       };
       "OBJ_105" = {
-         isa = "PBXFileReference";
-         path = "APIConnector.h";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_106"
+         );
+         name = "include";
+         path = "include";
          sourceTree = "<group>";
       };
       "OBJ_1050" = {
@@ -953,13 +946,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -1006,13 +999,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -1093,8 +1086,7 @@
       };
       "OBJ_106" = {
          isa = "PBXFileReference";
-         name = "module.modulemap";
-         path = "/Users/ST20591/git/swift/kituraSample/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin/module.modulemap";
+         path = "cpuplugin.h";
          sourceTree = "<group>";
       };
       "OBJ_1060" = {
@@ -1141,7 +1133,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/omr-agentcore--7486704100823265938/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/omr-agentcore-8175019746655520454/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_1070" = {
@@ -1249,7 +1241,7 @@
             "OBJ_119"
          );
          name = "KituraWebSocket";
-         path = ".build/checkouts/Kitura-WebSocket.git--2323972307212941154/Sources/KituraWebSocket";
+         path = ".build/checkouts/Kitura-WebSocket.git--687275984915960407/Sources/KituraWebSocket";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_1090" = {
@@ -1294,7 +1286,7 @@
       };
       "OBJ_11" = {
          isa = "PBXFileReference";
-         path = "Application.swift";
+         path = "Metrics.swift";
          sourceTree = "<group>";
       };
       "OBJ_110" = {
@@ -1341,13 +1333,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -1394,13 +1386,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -1445,7 +1437,7 @@
       };
       "OBJ_1109" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_46";
+         fileRef = "OBJ_43";
       };
       "OBJ_111" = {
          isa = "PBXFileReference";
@@ -1713,13 +1705,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -1766,13 +1758,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -1817,7 +1809,7 @@
       };
       "OBJ_1157" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_40";
+         fileRef = "OBJ_39";
       };
       "OBJ_1158" = {
          isa = "PBXFrameworksBuildPhase";
@@ -2034,13 +2026,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -2087,13 +2079,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -2131,15 +2123,19 @@
          name = "Release";
       };
       "OBJ_12" = {
-         isa = "PBXFileReference";
-         path = "InitializationError.swift";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_13"
+         );
+         name = "Routes";
+         path = "Routes";
          sourceTree = "<group>";
       };
       "OBJ_120" = {
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/Kitura-WebSocket.git--2323972307212941154/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/Kitura-WebSocket.git--687275984915960407/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_1200" = {
@@ -2150,7 +2146,7 @@
       };
       "OBJ_1201" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_38";
+         fileRef = "OBJ_36";
       };
       "OBJ_1202" = {
          isa = "PBXFrameworksBuildPhase";
@@ -2270,7 +2266,7 @@
             "OBJ_133"
          );
          name = "Cryptor";
-         path = ".build/checkouts/BlueCryptor.git--1064513661776334344/Sources/Cryptor";
+         path = ".build/checkouts/BlueCryptor.git-5844088162596307005/Sources/Cryptor";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_1220" = {
@@ -2550,7 +2546,7 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include"
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/agentcore_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -2588,7 +2584,7 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include"
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/agentcore_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -2644,11 +2640,11 @@
       };
       "OBJ_1258" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_58";
+         fileRef = "OBJ_60";
       };
       "OBJ_1259" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_59";
+         fileRef = "OBJ_61";
       };
       "OBJ_126" = {
          isa = "PBXFileReference";
@@ -2657,43 +2653,43 @@
       };
       "OBJ_1260" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_60";
+         fileRef = "OBJ_62";
       };
       "OBJ_1261" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_61";
+         fileRef = "OBJ_63";
       };
       "OBJ_1262" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_62";
+         fileRef = "OBJ_64";
       };
       "OBJ_1263" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_64";
+         fileRef = "OBJ_66";
       };
       "OBJ_1264" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_65";
+         fileRef = "OBJ_67";
       };
       "OBJ_1265" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_67";
+         fileRef = "OBJ_69";
       };
       "OBJ_1266" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_68";
+         fileRef = "OBJ_70";
       };
       "OBJ_1267" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_70";
+         fileRef = "OBJ_72";
       };
       "OBJ_1268" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_71";
+         fileRef = "OBJ_73";
       };
       "OBJ_1269" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_72";
+         fileRef = "OBJ_74";
       };
       "OBJ_127" = {
          isa = "PBXFileReference";
@@ -2702,43 +2698,43 @@
       };
       "OBJ_1270" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_73";
+         fileRef = "OBJ_75";
       };
       "OBJ_1271" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_75";
+         fileRef = "OBJ_77";
       };
       "OBJ_1272" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_77";
+         fileRef = "OBJ_79";
       };
       "OBJ_1273" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_78";
+         fileRef = "OBJ_80";
       };
       "OBJ_1274" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_79";
+         fileRef = "OBJ_81";
       };
       "OBJ_1275" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_80";
+         fileRef = "OBJ_82";
       };
       "OBJ_1276" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_82";
+         fileRef = "OBJ_84";
       };
       "OBJ_1277" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_83";
+         fileRef = "OBJ_85";
       };
       "OBJ_1278" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_85";
+         fileRef = "OBJ_87";
       };
       "OBJ_1279" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_87";
+         fileRef = "OBJ_89";
       };
       "OBJ_128" = {
          isa = "PBXFileReference";
@@ -2771,7 +2767,7 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include"
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/cpuplugin_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -2810,7 +2806,7 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include"
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/cpuplugin_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -2845,7 +2841,7 @@
       };
       "OBJ_1285" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_52";
+         fileRef = "OBJ_104";
       };
       "OBJ_1286" = {
          isa = "PBXHeadersBuildPhase";
@@ -2855,7 +2851,7 @@
       };
       "OBJ_1287" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_54";
+         fileRef = "OBJ_106";
          settings = {
             ATTRIBUTES = (
                "Public"
@@ -2893,7 +2889,7 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include"
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/envplugin_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -2932,7 +2928,7 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include"
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/envplugin_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -2967,7 +2963,7 @@
       };
       "OBJ_1293" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_98";
+         fileRef = "OBJ_94";
       };
       "OBJ_1294" = {
          isa = "PBXHeadersBuildPhase";
@@ -2977,7 +2973,7 @@
       };
       "OBJ_1295" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_100";
+         fileRef = "OBJ_96";
          settings = {
             ATTRIBUTES = (
                "Public"
@@ -3009,8 +3005,8 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include"
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/hcapiplugin_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -3048,8 +3044,8 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include"
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/hcapiplugin_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -3078,7 +3074,7 @@
       };
       "OBJ_13" = {
          isa = "PBXFileReference";
-         path = "Metrics.swift";
+         path = "HealthRoutes.swift";
          sourceTree = "<group>";
       };
       "OBJ_130" = {
@@ -3094,7 +3090,7 @@
       };
       "OBJ_1301" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_103";
+         fileRef = "OBJ_98";
       };
       "OBJ_1302" = {
          isa = "PBXFrameworksBuildPhase";
@@ -3128,13 +3124,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -3179,13 +3175,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -3234,7 +3230,7 @@
       };
       "OBJ_1310" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_9";
+         fileRef = "OBJ_15";
       };
       "OBJ_1311" = {
          isa = "PBXFrameworksBuildPhase";
@@ -3397,7 +3393,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/BlueCryptor.git--1064513661776334344/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/BlueCryptor.git-5844088162596307005/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_1340" = {
@@ -3513,7 +3509,7 @@
             "OBJ_154"
          );
          name = "CloudEnvironment";
-         path = ".build/checkouts/CloudEnvironment.git--8960824042429493051/Sources/CloudEnvironment";
+         path = ".build/checkouts/CloudEnvironment.git--5763557183822900167/Sources/CloudEnvironment";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_1360" = {
@@ -3674,7 +3670,7 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include"
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/memplugin_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -3712,7 +3708,7 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include"
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/memplugin_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -3747,7 +3743,7 @@
       };
       "OBJ_1387" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_92";
+         fileRef = "OBJ_53";
       };
       "OBJ_1388" = {
          isa = "PBXFrameworksBuildPhase";
@@ -3819,9 +3815,9 @@
          children = (
             "OBJ_15"
          );
-         name = "Routes";
-         path = "Routes";
-         sourceTree = "<group>";
+         name = "kituraSample";
+         path = "Sources/kituraSample";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_140" = {
          isa = "PBXFileReference";
@@ -3875,7 +3871,7 @@
       };
       "OBJ_15" = {
          isa = "PBXFileReference";
-         path = "HealthRoutes.swift";
+         path = "main.swift";
          sourceTree = "<group>";
       };
       "OBJ_150" = {
@@ -3907,7 +3903,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/CloudEnvironment.git--8960824042429493051/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/CloudEnvironment.git--5763557183822900167/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_156" = {
@@ -3931,7 +3927,7 @@
             "OBJ_163"
          );
          name = "CloudFoundryEnv";
-         path = ".build/checkouts/Swift-cfenv.git--377423627234755057/Sources/CloudFoundryEnv";
+         path = ".build/checkouts/Swift-cfenv.git-5056942134583017351/Sources/CloudFoundryEnv";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_158" = {
@@ -3977,7 +3973,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/Swift-cfenv.git--377423627234755057/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/Swift-cfenv.git-5056942134583017351/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_165" = {
@@ -3999,7 +3995,7 @@
             "OBJ_170"
          );
          name = "Configuration";
-         path = ".build/checkouts/Configuration.git-7884419809228077799/Sources/Configuration";
+         path = ".build/checkouts/Configuration.git-166032130407249272/Sources/Configuration";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_167" = {
@@ -4050,7 +4046,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/Configuration.git-7884419809228077799/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/Configuration.git-166032130407249272/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_174" = {
@@ -4069,7 +4065,7 @@
             "OBJ_176"
          );
          name = "FileKit";
-         path = ".build/checkouts/FileKit.git--5123678939459671926/Sources/FileKit";
+         path = ".build/checkouts/FileKit.git--5965041335514306029/Sources/FileKit";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_176" = {
@@ -4081,7 +4077,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/FileKit.git--5123678939459671926/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/FileKit.git--5965041335514306029/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_178" = {
@@ -4101,7 +4097,7 @@
             "OBJ_181"
          );
          name = "HeliumLogger";
-         path = ".build/checkouts/HeliumLogger.git-242740793551539014/Sources/HeliumLogger";
+         path = ".build/checkouts/HeliumLogger.git-8042373783909372804/Sources/HeliumLogger";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_18" = {
@@ -4123,7 +4119,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/HeliumLogger.git-242740793551539014/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/HeliumLogger.git-8042373783909372804/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_183" = {
@@ -4177,7 +4173,7 @@
             "OBJ_232"
          );
          name = "Kitura";
-         path = ".build/checkouts/Kitura.git--3162611032329960552/Sources/Kitura";
+         path = ".build/checkouts/Kitura.git--8365430724319451506/Sources/Kitura";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_185" = {
@@ -4552,7 +4548,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/Kitura.git--3162611032329960552/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/Kitura.git--8365430724319451506/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_241" = {
@@ -4572,7 +4568,7 @@
             "OBJ_244"
          );
          name = "TypeDecoder";
-         path = ".build/checkouts/TypeDecoder.git--3586303532718776402/Sources/TypeDecoder";
+         path = ".build/checkouts/TypeDecoder.git-6146525851467754732/Sources/TypeDecoder";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_243" = {
@@ -4589,7 +4585,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/TypeDecoder.git--3586303532718776402/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/TypeDecoder.git-6146525851467754732/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_246" = {
@@ -4613,7 +4609,7 @@
             "OBJ_257"
          );
          name = "KituraContracts";
-         path = ".build/checkouts/KituraContracts.git-146336003965995595/Sources/KituraContracts";
+         path = ".build/checkouts/KituraContracts.git-8496569574930953159/Sources/KituraContracts";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_248" = {
@@ -4634,7 +4630,7 @@
             "OBJ_28"
          );
          name = "Health";
-         path = ".build/checkouts/Health.git--2646838508589528212/Sources/Health";
+         path = ".build/checkouts/Health.git--8031427150979280756/Sources/Health";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_250" = {
@@ -4688,7 +4684,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/KituraContracts.git-146336003965995595/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/KituraContracts.git-8496569574930953159/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_259" = {
@@ -4712,7 +4708,7 @@
             "OBJ_261"
          );
          name = "KituraTemplateEngine";
-         path = ".build/checkouts/Kitura-TemplateEngine.git--8551732438280024442/Sources/KituraTemplateEngine";
+         path = ".build/checkouts/Kitura-TemplateEngine.git--1875467261779681256/Sources/KituraTemplateEngine";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_261" = {
@@ -4724,14 +4720,14 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/Kitura-TemplateEngine.git--8551732438280024442/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/Kitura-TemplateEngine.git--1875467261779681256/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_263" = {
          isa = "PBXGroup";
          children = (
             "OBJ_264",
-            "OBJ_265",
+            "OBJ_305",
             "OBJ_306",
             "OBJ_313"
          );
@@ -4742,23 +4738,16 @@
       "OBJ_264" = {
          isa = "PBXGroup";
          children = (
-         );
-         name = "CCurl";
-         path = ".build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_265" = {
-         isa = "PBXGroup";
-         children = (
+            "OBJ_265",
             "OBJ_266",
             "OBJ_267",
             "OBJ_268",
             "OBJ_269",
             "OBJ_270",
             "OBJ_271",
-            "OBJ_272",
-            "OBJ_279",
-            "OBJ_286",
+            "OBJ_278",
+            "OBJ_285",
+            "OBJ_290",
             "OBJ_291",
             "OBJ_292",
             "OBJ_293",
@@ -4766,32 +4755,36 @@
             "OBJ_295",
             "OBJ_296",
             "OBJ_297",
-            "OBJ_298",
-            "OBJ_304",
-            "OBJ_305"
+            "OBJ_303",
+            "OBJ_304"
          );
          name = "KituraNet";
-         path = ".build/checkouts/Kitura-net.git--1310368258332390371/Sources/KituraNet";
+         path = ".build/checkouts/Kitura-net.git--6668553104715935483/Sources/KituraNet";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_266" = {
+      "OBJ_265" = {
          isa = "PBXFileReference";
          path = "BufferList.swift";
          sourceTree = "<group>";
       };
-      "OBJ_267" = {
+      "OBJ_266" = {
          isa = "PBXFileReference";
          path = "ClientRequest.swift";
          sourceTree = "<group>";
       };
-      "OBJ_268" = {
+      "OBJ_267" = {
          isa = "PBXFileReference";
          path = "ClientResponse.swift";
          sourceTree = "<group>";
       };
-      "OBJ_269" = {
+      "OBJ_268" = {
          isa = "PBXFileReference";
          path = "ConnectionUpgradeFactory.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_269" = {
+         isa = "PBXFileReference";
+         path = "ConnectionUpgrader.swift";
          sourceTree = "<group>";
       };
       "OBJ_27" = {
@@ -4801,70 +4794,70 @@
       };
       "OBJ_270" = {
          isa = "PBXFileReference";
-         path = "ConnectionUpgrader.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_271" = {
-         isa = "PBXFileReference";
          path = "Error.swift";
          sourceTree = "<group>";
       };
-      "OBJ_272" = {
+      "OBJ_271" = {
          isa = "PBXGroup";
          children = (
+            "OBJ_272",
             "OBJ_273",
             "OBJ_274",
             "OBJ_275",
             "OBJ_276",
-            "OBJ_277",
-            "OBJ_278"
+            "OBJ_277"
          );
          name = "FastCGI";
          path = "FastCGI";
          sourceTree = "<group>";
       };
-      "OBJ_273" = {
+      "OBJ_272" = {
          isa = "PBXFileReference";
          path = "FastCGI.swift";
          sourceTree = "<group>";
       };
-      "OBJ_274" = {
+      "OBJ_273" = {
          isa = "PBXFileReference";
          path = "FastCGIRecordCreate.swift";
          sourceTree = "<group>";
       };
-      "OBJ_275" = {
+      "OBJ_274" = {
          isa = "PBXFileReference";
          path = "FastCGIRecordParser.swift";
          sourceTree = "<group>";
       };
-      "OBJ_276" = {
+      "OBJ_275" = {
          isa = "PBXFileReference";
          path = "FastCGIServer.swift";
          sourceTree = "<group>";
       };
-      "OBJ_277" = {
+      "OBJ_276" = {
          isa = "PBXFileReference";
          path = "FastCGIServerRequest.swift";
          sourceTree = "<group>";
       };
-      "OBJ_278" = {
+      "OBJ_277" = {
          isa = "PBXFileReference";
          path = "FastCGIServerResponse.swift";
          sourceTree = "<group>";
       };
-      "OBJ_279" = {
+      "OBJ_278" = {
          isa = "PBXGroup";
          children = (
+            "OBJ_279",
             "OBJ_280",
             "OBJ_281",
             "OBJ_282",
             "OBJ_283",
-            "OBJ_284",
-            "OBJ_285"
+            "OBJ_284"
          );
          name = "HTTP";
          path = "HTTP";
+         sourceTree = "<group>";
+      };
+      "OBJ_279" = {
+         isa = "PBXFileReference";
+         path = "HTTP.swift";
          sourceTree = "<group>";
       };
       "OBJ_28" = {
@@ -4874,124 +4867,124 @@
       };
       "OBJ_280" = {
          isa = "PBXFileReference";
-         path = "HTTP.swift";
+         path = "HTTPServer.swift";
          sourceTree = "<group>";
       };
       "OBJ_281" = {
          isa = "PBXFileReference";
-         path = "HTTPServer.swift";
+         path = "HTTPServerRequest.swift";
          sourceTree = "<group>";
       };
       "OBJ_282" = {
          isa = "PBXFileReference";
-         path = "HTTPServerRequest.swift";
+         path = "HTTPServerResponse.swift";
          sourceTree = "<group>";
       };
       "OBJ_283" = {
          isa = "PBXFileReference";
-         path = "HTTPServerResponse.swift";
+         path = "IncomingHTTPSocketProcessor.swift";
          sourceTree = "<group>";
       };
       "OBJ_284" = {
          isa = "PBXFileReference";
-         path = "IncomingHTTPSocketProcessor.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_285" = {
-         isa = "PBXFileReference";
          path = "KeepAliveState.swift";
          sourceTree = "<group>";
       };
-      "OBJ_286" = {
+      "OBJ_285" = {
          isa = "PBXGroup";
          children = (
+            "OBJ_286",
             "OBJ_287",
             "OBJ_288",
-            "OBJ_289",
-            "OBJ_290"
+            "OBJ_289"
          );
          name = "HTTPParser";
          path = "HTTPParser";
          sourceTree = "<group>";
       };
-      "OBJ_287" = {
+      "OBJ_286" = {
          isa = "PBXFileReference";
          path = "HTTPParser.swift";
          sourceTree = "<group>";
       };
-      "OBJ_288" = {
+      "OBJ_287" = {
          isa = "PBXFileReference";
          path = "HTTPParserStatus.swift";
          sourceTree = "<group>";
       };
-      "OBJ_289" = {
+      "OBJ_288" = {
          isa = "PBXFileReference";
          path = "ParseResults.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_289" = {
+         isa = "PBXFileReference";
+         path = "URLParser.swift";
          sourceTree = "<group>";
       };
       "OBJ_29" = {
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/Health.git--2646838508589528212/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/Health.git--8031427150979280756/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_290" = {
          isa = "PBXFileReference";
-         path = "URLParser.swift";
+         path = "HeadersContainer.swift";
          sourceTree = "<group>";
       };
       "OBJ_291" = {
          isa = "PBXFileReference";
-         path = "HeadersContainer.swift";
+         path = "IncomingSocketHandler.swift";
          sourceTree = "<group>";
       };
       "OBJ_292" = {
          isa = "PBXFileReference";
-         path = "IncomingSocketHandler.swift";
+         path = "IncomingSocketManager.swift";
          sourceTree = "<group>";
       };
       "OBJ_293" = {
          isa = "PBXFileReference";
-         path = "IncomingSocketManager.swift";
+         path = "IncomingSocketProcessor.swift";
          sourceTree = "<group>";
       };
       "OBJ_294" = {
          isa = "PBXFileReference";
-         path = "IncomingSocketProcessor.swift";
+         path = "IncomingSocketProcessorCreator.swift";
          sourceTree = "<group>";
       };
       "OBJ_295" = {
          isa = "PBXFileReference";
-         path = "IncomingSocketProcessorCreator.swift";
+         path = "ListenerGroup.swift";
          sourceTree = "<group>";
       };
       "OBJ_296" = {
          isa = "PBXFileReference";
-         path = "ListenerGroup.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_297" = {
-         isa = "PBXFileReference";
          path = "SPIUtils.swift";
          sourceTree = "<group>";
       };
-      "OBJ_298" = {
+      "OBJ_297" = {
          isa = "PBXGroup";
          children = (
+            "OBJ_298",
             "OBJ_299",
             "OBJ_300",
             "OBJ_301",
-            "OBJ_302",
-            "OBJ_303"
+            "OBJ_302"
          );
          name = "Server";
          path = "Server";
          sourceTree = "<group>";
       };
-      "OBJ_299" = {
+      "OBJ_298" = {
          isa = "PBXFileReference";
          path = "Server.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_299" = {
+         isa = "PBXFileReference";
+         path = "ServerDelegate.swift";
          sourceTree = "<group>";
       };
       "OBJ_3" = {
@@ -5037,13 +5030,13 @@
          isa = "PBXGroup";
          children = (
             "OBJ_31",
-            "OBJ_33",
-            "OBJ_36",
+            "OBJ_34",
+            "OBJ_35",
             "OBJ_37",
-            "OBJ_39",
-            "OBJ_41",
+            "OBJ_38",
+            "OBJ_40",
+            "OBJ_42",
             "OBJ_44",
-            "OBJ_45",
             "OBJ_47",
             "OBJ_49"
          );
@@ -5053,33 +5046,36 @@
       };
       "OBJ_300" = {
          isa = "PBXFileReference";
-         path = "ServerDelegate.swift";
+         path = "ServerLifecycleListener.swift";
          sourceTree = "<group>";
       };
       "OBJ_301" = {
          isa = "PBXFileReference";
-         path = "ServerLifecycleListener.swift";
+         path = "ServerMonitor.swift";
          sourceTree = "<group>";
       };
       "OBJ_302" = {
          isa = "PBXFileReference";
-         path = "ServerMonitor.swift";
+         path = "ServerState.swift";
          sourceTree = "<group>";
       };
       "OBJ_303" = {
          isa = "PBXFileReference";
-         path = "ServerState.swift";
+         path = "ServerRequest.swift";
          sourceTree = "<group>";
       };
       "OBJ_304" = {
          isa = "PBXFileReference";
-         path = "ServerRequest.swift";
+         path = "ServerResponse.swift";
          sourceTree = "<group>";
       };
       "OBJ_305" = {
-         isa = "PBXFileReference";
-         path = "ServerResponse.swift";
-         sourceTree = "<group>";
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "CCurl";
+         path = ".build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_306" = {
          isa = "PBXGroup";
@@ -5089,7 +5085,7 @@
             "OBJ_309"
          );
          name = "CHTTPParser";
-         path = ".build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser";
+         path = ".build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_307" = {
@@ -5116,10 +5112,11 @@
       "OBJ_31" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_32"
+            "OBJ_32",
+            "OBJ_33"
          );
-         name = "SwiftMetricsBluemix";
-         path = ".build/checkouts/SwiftMetrics.git--834283084986425438/Sources/SwiftMetricsBluemix";
+         name = "SwiftBAMDC";
+         path = ".build/checkouts/SwiftMetrics.git-9026318010732042584/Sources/SwiftBAMDC";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_310" = {
@@ -5141,7 +5138,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/Kitura-net.git--1310368258332390371/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/Kitura-net.git--6668553104715935483/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_314" = {
@@ -5161,7 +5158,7 @@
             "OBJ_317"
          );
          name = "SSLService";
-         path = ".build/checkouts/BlueSSLService.git--7855295555166235286/Sources/SSLService";
+         path = ".build/checkouts/BlueSSLService.git-5426899077999963101/Sources/SSLService";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_316" = {
@@ -5178,7 +5175,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/BlueSSLService.git--7855295555166235286/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/BlueSSLService.git-5426899077999963101/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_319" = {
@@ -5193,7 +5190,7 @@
       };
       "OBJ_32" = {
          isa = "PBXFileReference";
-         path = "SwiftMetricsBluemix.swift";
+         path = "SwiftDataCollector.swift";
          sourceTree = "<group>";
       };
       "OBJ_320" = {
@@ -5204,7 +5201,7 @@
             "OBJ_323"
          );
          name = "Socket";
-         path = ".build/checkouts/BlueSocket.git--2091423101909525949/Sources/Socket";
+         path = ".build/checkouts/BlueSocket.git-4340095744078006338/Sources/Socket";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_321" = {
@@ -5226,7 +5223,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/BlueSocket.git--2091423101909525949/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/BlueSocket.git-4340095744078006338/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_325" = {
@@ -5245,7 +5242,7 @@
             "OBJ_327"
          );
          name = "LoggerAPI";
-         path = ".build/checkouts/LoggerAPI.git-222552595101086542/Sources/LoggerAPI";
+         path = ".build/checkouts/LoggerAPI.git-7130526871151887050/Sources/LoggerAPI";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_327" = {
@@ -5257,76 +5254,75 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/LoggerAPI.git-222552595101086542/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/LoggerAPI.git-7130526871151887050/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_329" = {
          isa = "PBXGroup";
          children = (
-            "kituraSample::kituraSample::Product",
-            "SwiftMetrics::SwiftMetricsDash::Product",
-            "SwiftMetrics::SwiftMetricsBluemix::Product",
-            "kituraSample::ApplicationTests::Product",
-            "SwiftMetrics::SwiftMetricsKitura::Product",
-            "Cryptor::Cryptor::Product",
-            "HeliumLogger::HeliumLogger::Product",
-            "omr-agentcore::hcapiplugin::Product",
-            "FileKit::FileKit::Product",
-            "SwiftMetrics::SwiftMetrics::Product",
-            "Configuration::Configuration::Product",
-            "omr-agentcore::envplugin::Product",
-            "Socket::Socket::Product",
-            "CloudEnvironment::CloudEnvironment::Product",
-            "KituraContracts::KituraContracts::Product",
-            "Kitura-WebSocket::KituraWebSocket::Product",
-            "Kitura-net::CHTTPParser::Product",
-            "omr-agentcore::cpuplugin::Product",
-            "omr-agentcore::memplugin::Product",
-            "LoggerAPI::LoggerAPI::Product",
-            "SwiftMetrics::SwiftBAMDC::Product",
-            "omr-agentcore::agentcore::Product",
-            "CloudFoundryEnv::CloudFoundryEnv::Product",
-            "Kitura::Kitura::Product",
-            "SwiftMetrics::SwiftMetricsREST::Product",
-            "Kitura-TemplateEngine::KituraTemplateEngine::Product",
-            "Health::Health::Product",
-            "SwiftMetrics::SwiftMetricsPrometheus::Product",
             "TypeDecoder::TypeDecoder::Product",
+            "SwiftMetrics::SwiftMetricsDash::Product",
+            "HeliumLogger::HeliumLogger::Product",
+            "SwiftMetrics::SwiftBAMDC::Product",
+            "SwiftMetrics::SwiftMetricsREST::Product",
+            "omr-agentcore::agentcore::Product",
+            "CloudEnvironment::CloudEnvironment::Product",
+            "omr-agentcore::memplugin::Product",
+            "Configuration::Configuration::Product",
             "Kitura-net::KituraNet::Product",
+            "kituraSample::kituraSample::Product",
+            "FileKit::FileKit::Product",
+            "Socket::Socket::Product",
+            "KituraContracts::KituraContracts::Product",
+            "omr-agentcore::envplugin::Product",
+            "Kitura-net::CHTTPParser::Product",
+            "Cryptor::Cryptor::Product",
+            "LoggerAPI::LoggerAPI::Product",
+            "kituraSample::ApplicationTests::Product",
+            "omr-agentcore::hcapiplugin::Product",
+            "Kitura::Kitura::Product",
             "SSLService::SSLService::Product",
-            "kituraSample::Application::Product"
+            "omr-agentcore::cpuplugin::Product",
+            "SwiftMetrics::SwiftMetrics::Product",
+            "SwiftMetrics::SwiftMetricsKitura::Product",
+            "SwiftMetrics::SwiftMetricsPrometheus::Product",
+            "Kitura-TemplateEngine::KituraTemplateEngine::Product",
+            "kituraSample::Application::Product",
+            "SwiftMetrics::SwiftMetricsBluemix::Product",
+            "CloudFoundryEnv::CloudFoundryEnv::Product",
+            "Health::Health::Product",
+            "Kitura-WebSocket::KituraWebSocket::Product"
          );
          name = "Products";
          path = "";
          sourceTree = "BUILT_PRODUCTS_DIR";
       };
       "OBJ_33" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_34",
-            "OBJ_35"
-         );
-         name = "SwiftBAMDC";
-         path = ".build/checkouts/SwiftMetrics.git--834283084986425438/Sources/SwiftBAMDC";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_34" = {
-         isa = "PBXFileReference";
-         path = "SwiftDataCollector.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_35" = {
          isa = "PBXFileReference";
          path = "SwiftMetricsBAMConfig.swift";
          sourceTree = "<group>";
       };
-      "OBJ_36" = {
+      "OBJ_34" = {
          isa = "PBXGroup";
          children = (
          );
-         name = "SwiftMetricsCommonSample";
-         path = ".build/checkouts/SwiftMetrics.git--834283084986425438/commonSample/Sources";
+         name = "SwiftMetricsEmitSample";
+         path = ".build/checkouts/SwiftMetrics.git-9026318010732042584/emitSample/Sources";
          sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_35" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_36"
+         );
+         name = "SwiftMetricsREST";
+         path = ".build/checkouts/SwiftMetrics.git-9026318010732042584/Sources/SwiftMetricsREST";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_36" = {
+         isa = "PBXFileReference";
+         path = "SwiftMetricsREST.swift";
+         sourceTree = "<group>";
       };
       "OBJ_363" = {
          isa = "XCConfigurationList";
@@ -5347,13 +5343,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -5400,13 +5396,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -5454,28 +5450,27 @@
       };
       "OBJ_367" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_11";
+         fileRef = "OBJ_9";
       };
       "OBJ_368" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_12";
+         fileRef = "OBJ_10";
       };
       "OBJ_369" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
+         fileRef = "OBJ_11";
       };
       "OBJ_37" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_38"
          );
-         name = "SwiftMetricsREST";
-         path = ".build/checkouts/SwiftMetrics.git--834283084986425438/Sources/SwiftMetricsREST";
+         name = "SwiftMetricsCommonSample";
+         path = ".build/checkouts/SwiftMetrics.git-9026318010732042584/commonSample/Sources";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_370" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_15";
+         fileRef = "OBJ_13";
       };
       "OBJ_371" = {
          isa = "PBXFrameworksBuildPhase";
@@ -5543,9 +5538,13 @@
          fileRef = "Cryptor::Cryptor::Product";
       };
       "OBJ_38" = {
-         isa = "PBXFileReference";
-         path = "SwiftMetricsREST.swift";
-         sourceTree = "<group>";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_39"
+         );
+         name = "SwiftMetricsPrometheus";
+         path = ".build/checkouts/SwiftMetrics.git-9026318010732042584/Sources/SwiftMetricsPrometheus";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_380" = {
          isa = "PBXBuildFile";
@@ -5588,13 +5587,9 @@
          fileRef = "Configuration::Configuration::Product";
       };
       "OBJ_39" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_40"
-         );
-         name = "SwiftMetricsPrometheus";
-         path = ".build/checkouts/SwiftMetrics.git--834283084986425438/Sources/SwiftMetricsPrometheus";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "SwiftMetricsPrometheus.swift";
+         sourceTree = "<group>";
       };
       "OBJ_390" = {
          isa = "PBXBuildFile";
@@ -5669,9 +5664,13 @@
          name = "Release";
       };
       "OBJ_40" = {
-         isa = "PBXFileReference";
-         path = "SwiftMetricsPrometheus.swift";
-         sourceTree = "<group>";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_41"
+         );
+         name = "SwiftMetricsBluemix";
+         path = ".build/checkouts/SwiftMetrics.git-9026318010732042584/Sources/SwiftMetricsBluemix";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_400" = {
          isa = "PBXTargetDependency";
@@ -5694,14 +5693,9 @@
          target = "SwiftMetrics::SwiftMetricsBluemix";
       };
       "OBJ_41" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_42",
-            "OBJ_43"
-         );
-         name = "SwiftMetrics";
-         path = ".build/checkouts/SwiftMetrics.git--834283084986425438/Sources/SwiftMetrics";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "SwiftMetricsBluemix.swift";
+         sourceTree = "<group>";
       };
       "OBJ_410" = {
          isa = "PBXTargetDependency";
@@ -5724,9 +5718,13 @@
          target = "SwiftMetrics::SwiftMetrics";
       };
       "OBJ_42" = {
-         isa = "PBXFileReference";
-         path = "SwiftMetrics.swift";
-         sourceTree = "<group>";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_43"
+         );
+         name = "SwiftMetricsKitura";
+         path = ".build/checkouts/SwiftMetrics.git-9026318010732042584/Sources/SwiftMetricsKitura";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_420" = {
          isa = "PBXTargetDependency";
@@ -5750,7 +5748,7 @@
       };
       "OBJ_43" = {
          isa = "PBXFileReference";
-         path = "SwiftMonitor.swift";
+         path = "SwiftMetricsKitura.swift";
          sourceTree = "<group>";
       };
       "OBJ_430" = {
@@ -5776,9 +5774,11 @@
       "OBJ_44" = {
          isa = "PBXGroup";
          children = (
+            "OBJ_45",
+            "OBJ_46"
          );
-         name = "SwiftMetricsEmitSample";
-         path = ".build/checkouts/SwiftMetrics.git--834283084986425438/emitSample/Sources";
+         name = "SwiftMetrics";
+         path = ".build/checkouts/SwiftMetrics.git-9026318010732042584/Sources/SwiftMetrics";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_440" = {
@@ -5802,13 +5802,9 @@
          target = "SSLService::SSLService";
       };
       "OBJ_45" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_46"
-         );
-         name = "SwiftMetricsKitura";
-         path = ".build/checkouts/SwiftMetrics.git--834283084986425438/Sources/SwiftMetricsKitura";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "SwiftMetrics.swift";
+         sourceTree = "<group>";
       };
       "OBJ_450" = {
          isa = "PBXTargetDependency";
@@ -5842,13 +5838,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -5893,13 +5889,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -5935,7 +5931,7 @@
       };
       "OBJ_46" = {
          isa = "PBXFileReference";
-         path = "SwiftMetricsKitura.swift";
+         path = "SwiftMonitor.swift";
          sourceTree = "<group>";
       };
       "OBJ_460" = {
@@ -6017,7 +6013,7 @@
             "OBJ_48"
          );
          name = "SwiftMetricsDash";
-         path = ".build/checkouts/SwiftMetrics.git--834283084986425438/Sources/SwiftMetricsDash";
+         path = ".build/checkouts/SwiftMetrics.git-9026318010732042584/Sources/SwiftMetricsDash";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_470" = {
@@ -6109,7 +6105,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/SwiftMetrics.git--834283084986425438/Package.swift";
+         path = "/Users/ST20591/git/swift/kituraSample/.build/checkouts/SwiftMetrics.git-9026318010732042584/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_490" = {
@@ -6168,12 +6164,12 @@
          isa = "PBXGroup";
          children = (
             "OBJ_51",
-            "OBJ_55",
-            "OBJ_91",
-            "OBJ_96",
+            "OBJ_52",
+            "OBJ_57",
+            "OBJ_93",
             "OBJ_97",
-            "OBJ_101",
             "OBJ_102",
+            "OBJ_103",
             "OBJ_107"
          );
          name = "omr-agentcore 3.2.4-swift4";
@@ -6223,11 +6219,9 @@
       "OBJ_51" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_52",
-            "OBJ_53"
          );
-         name = "cpuplugin";
-         path = ".build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin";
+         name = "mqttplugin";
+         path = ".build/checkouts/omr-agentcore-8175019746655520454/src/mqttplugin";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_510" = {
@@ -6271,9 +6265,14 @@
          target = "Kitura-net::KituraNet";
       };
       "OBJ_52" = {
-         isa = "PBXFileReference";
-         path = "cpuplugin.cpp";
-         sourceTree = "<group>";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_53",
+            "OBJ_54"
+         );
+         name = "memplugin";
+         path = ".build/checkouts/omr-agentcore-8175019746655520454/src/memplugin";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_520" = {
          isa = "PBXTargetDependency";
@@ -6312,7 +6311,7 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/CHTTPParser_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -6351,7 +6350,7 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/CHTTPParser_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -6394,12 +6393,8 @@
          fileRef = "OBJ_308";
       };
       "OBJ_53" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_54"
-         );
-         name = "include";
-         path = "include";
+         isa = "PBXFileReference";
+         path = "MemoryPlugin.cpp";
          sourceTree = "<group>";
       };
       "OBJ_530" = {
@@ -6553,8 +6548,13 @@
          fileRef = "OBJ_137";
       };
       "OBJ_54" = {
-         isa = "PBXFileReference";
-         path = "cpuplugin.h";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_55",
+            "OBJ_56"
+         );
+         name = "include";
+         path = "include";
          sourceTree = "<group>";
       };
       "OBJ_540" = {
@@ -6598,14 +6598,9 @@
          fileRef = "OBJ_147";
       };
       "OBJ_55" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_56",
-            "OBJ_88"
-         );
-         name = "agentcore";
-         path = ".build/checkouts/omr-agentcore--7486704100823265938/src/agentcore";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "MemoryPlugin.h";
+         sourceTree = "<group>";
       };
       "OBJ_550" = {
          isa = "PBXBuildFile";
@@ -6653,13 +6648,9 @@
          fileRef = "Configuration::Configuration::Product";
       };
       "OBJ_56" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_57",
-            "OBJ_74"
-         );
-         name = "ibmras";
-         path = "ibmras";
+         isa = "PBXFileReference";
+         name = "module.modulemap";
+         path = "/Users/ST20591/git/swift/kituraSample/kituraSample.xcodeproj/GeneratedModuleMap/memplugin/module.modulemap";
          sourceTree = "<group>";
       };
       "OBJ_560" = {
@@ -6735,16 +6726,11 @@
          isa = "PBXGroup";
          children = (
             "OBJ_58",
-            "OBJ_59",
-            "OBJ_60",
-            "OBJ_61",
-            "OBJ_62",
-            "OBJ_63",
-            "OBJ_69"
+            "OBJ_90"
          );
-         name = "common";
-         path = "common";
-         sourceTree = "<group>";
+         name = "agentcore";
+         path = ".build/checkouts/omr-agentcore-8175019746655520454/src/agentcore";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_570" = {
          isa = "PBXSourcesBuildPhase";
@@ -6867,8 +6853,13 @@
          fileRef = "OBJ_161";
       };
       "OBJ_58" = {
-         isa = "PBXFileReference";
-         path = "LogManager.cpp";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_59",
+            "OBJ_76"
+         );
+         name = "ibmras";
+         path = "ibmras";
          sourceTree = "<group>";
       };
       "OBJ_580" = {
@@ -6912,8 +6903,18 @@
          target = "LoggerAPI::LoggerAPI";
       };
       "OBJ_59" = {
-         isa = "PBXFileReference";
-         path = "Logger.cpp";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_60",
+            "OBJ_61",
+            "OBJ_62",
+            "OBJ_63",
+            "OBJ_64",
+            "OBJ_65",
+            "OBJ_71"
+         );
+         name = "common";
+         path = "common";
          sourceTree = "<group>";
       };
       "OBJ_590" = {
@@ -7076,7 +7077,7 @@
       };
       "OBJ_60" = {
          isa = "PBXFileReference";
-         path = "MemoryManager.cpp";
+         path = "LogManager.cpp";
          sourceTree = "<group>";
       };
       "OBJ_600" = {
@@ -7120,7 +7121,7 @@
       };
       "OBJ_61" = {
          isa = "PBXFileReference";
-         path = "Properties.cpp";
+         path = "Logger.cpp";
          sourceTree = "<group>";
       };
       "OBJ_610" = {
@@ -7283,7 +7284,7 @@
       };
       "OBJ_62" = {
          isa = "PBXFileReference";
-         path = "PropertiesFile.cpp";
+         path = "MemoryManager.cpp";
          sourceTree = "<group>";
       };
       "OBJ_620" = {
@@ -7327,14 +7328,8 @@
          fileRef = "OBJ_133";
       };
       "OBJ_63" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_64",
-            "OBJ_65",
-            "OBJ_66"
-         );
-         name = "port";
-         path = "port";
+         isa = "PBXFileReference";
+         path = "Properties.cpp";
          sourceTree = "<group>";
       };
       "OBJ_630" = {
@@ -7482,7 +7477,7 @@
       };
       "OBJ_64" = {
          isa = "PBXFileReference";
-         path = "Lock.cpp";
+         path = "PropertiesFile.cpp";
          sourceTree = "<group>";
       };
       "OBJ_640" = {
@@ -7561,8 +7556,14 @@
          );
       };
       "OBJ_65" = {
-         isa = "PBXFileReference";
-         path = "ThreadData.cpp";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_66",
+            "OBJ_67",
+            "OBJ_68"
+         );
+         name = "port";
+         path = "port";
          sourceTree = "<group>";
       };
       "OBJ_650" = {
@@ -7683,13 +7684,8 @@
          fileRef = "LoggerAPI::LoggerAPI::Product";
       };
       "OBJ_66" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_67",
-            "OBJ_68"
-         );
-         name = "osx";
-         path = "osx";
+         isa = "PBXFileReference";
+         path = "Lock.cpp";
          sourceTree = "<group>";
       };
       "OBJ_660" = {
@@ -7836,7 +7832,7 @@
       };
       "OBJ_67" = {
          isa = "PBXFileReference";
-         path = "Process.cpp";
+         path = "ThreadData.cpp";
          sourceTree = "<group>";
       };
       "OBJ_670" = {
@@ -7914,8 +7910,13 @@
          name = "Release";
       };
       "OBJ_68" = {
-         isa = "PBXFileReference";
-         path = "Thread.cpp";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_69",
+            "OBJ_70"
+         );
+         name = "osx";
+         path = "osx";
          sourceTree = "<group>";
       };
       "OBJ_680" = {
@@ -7947,8 +7948,8 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/Kitura_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -7986,8 +7987,8 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/Kitura_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -8089,15 +8090,8 @@
          fileRef = "OBJ_188";
       };
       "OBJ_69" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_70",
-            "OBJ_71",
-            "OBJ_72",
-            "OBJ_73"
-         );
-         name = "util";
-         path = "util";
+         isa = "PBXFileReference";
+         path = "Process.cpp";
          sourceTree = "<group>";
       };
       "OBJ_690" = {
@@ -8144,7 +8138,7 @@
          isa = "PBXGroup";
          children = (
             "OBJ_8",
-            "OBJ_10"
+            "OBJ_14"
          );
          name = "Sources";
          path = "";
@@ -8152,7 +8146,7 @@
       };
       "OBJ_70" = {
          isa = "PBXFileReference";
-         path = "FileUtils.cpp";
+         path = "Thread.cpp";
          sourceTree = "<group>";
       };
       "OBJ_700" = {
@@ -8196,8 +8190,15 @@
          fileRef = "OBJ_208";
       };
       "OBJ_71" = {
-         isa = "PBXFileReference";
-         path = "LibraryUtils.cpp";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_72",
+            "OBJ_73",
+            "OBJ_74",
+            "OBJ_75"
+         );
+         name = "util";
+         path = "util";
          sourceTree = "<group>";
       };
       "OBJ_710" = {
@@ -8242,7 +8243,7 @@
       };
       "OBJ_72" = {
          isa = "PBXFileReference";
-         path = "strUtils.cpp";
+         path = "FileUtils.cpp";
          sourceTree = "<group>";
       };
       "OBJ_720" = {
@@ -8287,7 +8288,7 @@
       };
       "OBJ_73" = {
          isa = "PBXFileReference";
-         path = "sysUtils.cpp";
+         path = "LibraryUtils.cpp";
          sourceTree = "<group>";
       };
       "OBJ_730" = {
@@ -8340,14 +8341,8 @@
          fileRef = "TypeDecoder::TypeDecoder::Product";
       };
       "OBJ_74" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_75",
-            "OBJ_76",
-            "OBJ_84"
-         );
-         name = "monitoring";
-         path = "monitoring";
+         isa = "PBXFileReference";
+         path = "strUtils.cpp";
          sourceTree = "<group>";
       };
       "OBJ_740" = {
@@ -8392,7 +8387,7 @@
       };
       "OBJ_75" = {
          isa = "PBXFileReference";
-         path = "Plugin.cpp";
+         path = "sysUtils.cpp";
          sourceTree = "<group>";
       };
       "OBJ_750" = {
@@ -8471,12 +8466,10 @@
          children = (
             "OBJ_77",
             "OBJ_78",
-            "OBJ_79",
-            "OBJ_80",
-            "OBJ_81"
+            "OBJ_86"
          );
-         name = "agent";
-         path = "agent";
+         name = "monitoring";
+         path = "monitoring";
          sourceTree = "<group>";
       };
       "OBJ_760" = {
@@ -8555,7 +8548,7 @@
       };
       "OBJ_77" = {
          isa = "PBXFileReference";
-         path = "Agent.cpp";
+         path = "Plugin.cpp";
          sourceTree = "<group>";
       };
       "OBJ_770" = {
@@ -8670,8 +8663,16 @@
          name = "Debug";
       };
       "OBJ_78" = {
-         isa = "PBXFileReference";
-         path = "Bucket.cpp";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_79",
+            "OBJ_80",
+            "OBJ_81",
+            "OBJ_82",
+            "OBJ_83"
+         );
+         name = "agent";
+         path = "agent";
          sourceTree = "<group>";
       };
       "OBJ_780" = {
@@ -8759,7 +8760,7 @@
       };
       "OBJ_79" = {
          isa = "PBXFileReference";
-         path = "BucketList.cpp";
+         path = "Agent.cpp";
          sourceTree = "<group>";
       };
       "OBJ_790" = {
@@ -8838,15 +8839,18 @@
       "OBJ_8" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_9"
+            "OBJ_9",
+            "OBJ_10",
+            "OBJ_11",
+            "OBJ_12"
          );
-         name = "kituraSample";
-         path = "Sources/kituraSample";
+         name = "Application";
+         path = "Sources/Application";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_80" = {
          isa = "PBXFileReference";
-         path = "SystemReceiver.cpp";
+         path = "Bucket.cpp";
          sourceTree = "<group>";
       };
       "OBJ_800" = {
@@ -8868,8 +8872,8 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/KituraNet_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -8907,8 +8911,8 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/KituraNet_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -8979,176 +8983,171 @@
       };
       "OBJ_804" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_266";
+         fileRef = "OBJ_265";
       };
       "OBJ_805" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_267";
+         fileRef = "OBJ_266";
       };
       "OBJ_806" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_268";
+         fileRef = "OBJ_267";
       };
       "OBJ_807" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_269";
+         fileRef = "OBJ_268";
       };
       "OBJ_808" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_270";
+         fileRef = "OBJ_269";
       };
       "OBJ_809" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_271";
+         fileRef = "OBJ_270";
       };
       "OBJ_81" = {
+         isa = "PBXFileReference";
+         path = "BucketList.cpp";
+         sourceTree = "<group>";
+      };
+      "OBJ_810" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_272";
+      };
+      "OBJ_811" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_273";
+      };
+      "OBJ_812" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_274";
+      };
+      "OBJ_813" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_275";
+      };
+      "OBJ_814" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_276";
+      };
+      "OBJ_815" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_277";
+      };
+      "OBJ_816" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_279";
+      };
+      "OBJ_817" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_280";
+      };
+      "OBJ_818" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_281";
+      };
+      "OBJ_819" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_282";
+      };
+      "OBJ_82" = {
+         isa = "PBXFileReference";
+         path = "SystemReceiver.cpp";
+         sourceTree = "<group>";
+      };
+      "OBJ_820" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_283";
+      };
+      "OBJ_821" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_284";
+      };
+      "OBJ_822" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_286";
+      };
+      "OBJ_823" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_287";
+      };
+      "OBJ_824" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_288";
+      };
+      "OBJ_825" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_289";
+      };
+      "OBJ_826" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_290";
+      };
+      "OBJ_827" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_291";
+      };
+      "OBJ_828" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_292";
+      };
+      "OBJ_829" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_293";
+      };
+      "OBJ_83" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_82",
-            "OBJ_83"
+            "OBJ_84",
+            "OBJ_85"
          );
          name = "threads";
          path = "threads";
          sourceTree = "<group>";
       };
-      "OBJ_810" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_273";
-      };
-      "OBJ_811" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_274";
-      };
-      "OBJ_812" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_275";
-      };
-      "OBJ_813" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_276";
-      };
-      "OBJ_814" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_277";
-      };
-      "OBJ_815" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_278";
-      };
-      "OBJ_816" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_280";
-      };
-      "OBJ_817" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_281";
-      };
-      "OBJ_818" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_282";
-      };
-      "OBJ_819" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_283";
-      };
-      "OBJ_82" = {
-         isa = "PBXFileReference";
-         path = "ThreadPool.cpp";
-         sourceTree = "<group>";
-      };
-      "OBJ_820" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_284";
-      };
-      "OBJ_821" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_285";
-      };
-      "OBJ_822" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_287";
-      };
-      "OBJ_823" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_288";
-      };
-      "OBJ_824" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_289";
-      };
-      "OBJ_825" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_290";
-      };
-      "OBJ_826" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_291";
-      };
-      "OBJ_827" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_292";
-      };
-      "OBJ_828" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_293";
-      };
-      "OBJ_829" = {
+      "OBJ_830" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_294";
       };
-      "OBJ_83" = {
-         isa = "PBXFileReference";
-         path = "WorkerThread.cpp";
-         sourceTree = "<group>";
-      };
-      "OBJ_830" = {
+      "OBJ_831" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_295";
       };
-      "OBJ_831" = {
+      "OBJ_832" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_296";
       };
-      "OBJ_832" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_297";
-      };
       "OBJ_833" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_299";
+         fileRef = "OBJ_298";
       };
       "OBJ_834" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_300";
+         fileRef = "OBJ_299";
       };
       "OBJ_835" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_301";
+         fileRef = "OBJ_300";
       };
       "OBJ_836" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_302";
+         fileRef = "OBJ_301";
       };
       "OBJ_837" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_303";
+         fileRef = "OBJ_302";
       };
       "OBJ_838" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_304";
+         fileRef = "OBJ_303";
       };
       "OBJ_839" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_305";
+         fileRef = "OBJ_304";
       };
       "OBJ_84" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_85",
-            "OBJ_86"
-         );
-         name = "connector";
-         path = "connector";
+         isa = "PBXFileReference";
+         path = "ThreadPool.cpp";
          sourceTree = "<group>";
       };
       "OBJ_840" = {
@@ -9194,7 +9193,7 @@
       };
       "OBJ_85" = {
          isa = "PBXFileReference";
-         path = "ConnectorManager.cpp";
+         path = "WorkerThread.cpp";
          sourceTree = "<group>";
       };
       "OBJ_850" = {
@@ -9348,10 +9347,11 @@
       "OBJ_86" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_87"
+            "OBJ_87",
+            "OBJ_88"
          );
-         name = "configuration";
-         path = "configuration";
+         name = "connector";
+         path = "connector";
          sourceTree = "<group>";
       };
       "OBJ_860" = {
@@ -9378,8 +9378,8 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/KituraWebSocket_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -9417,8 +9417,8 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include"
             );
             INFOPLIST_FILE = "kituraSample.xcodeproj/KituraWebSocket_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
@@ -9483,7 +9483,7 @@
       };
       "OBJ_87" = {
          isa = "PBXFileReference";
-         path = "ConfigurationConnector.cpp";
+         path = "ConnectorManager.cpp";
          sourceTree = "<group>";
       };
       "OBJ_870" = {
@@ -9536,11 +9536,10 @@
       "OBJ_88" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_89",
-            "OBJ_90"
+            "OBJ_89"
          );
-         name = "include";
-         path = "include";
+         name = "configuration";
+         path = "configuration";
          sourceTree = "<group>";
       };
       "OBJ_880" = {
@@ -9623,7 +9622,7 @@
       };
       "OBJ_89" = {
          isa = "PBXFileReference";
-         path = "AgentExtensions.h";
+         path = "ConfigurationConnector.cpp";
          sourceTree = "<group>";
       };
       "OBJ_890" = {
@@ -9735,13 +9734,17 @@
       };
       "OBJ_9" = {
          isa = "PBXFileReference";
-         path = "main.swift";
+         path = "Application.swift";
          sourceTree = "<group>";
       };
       "OBJ_90" = {
-         isa = "PBXFileReference";
-         name = "module.modulemap";
-         path = "/Users/ST20591/git/swift/kituraSample/kituraSample.xcodeproj/GeneratedModuleMap/agentcore/module.modulemap";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_91",
+            "OBJ_92"
+         );
+         name = "include";
+         path = "include";
          sourceTree = "<group>";
       };
       "OBJ_900" = {
@@ -9857,14 +9860,9 @@
          target = "Socket::Socket";
       };
       "OBJ_91" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_92",
-            "OBJ_93"
-         );
-         name = "memplugin";
-         path = ".build/checkouts/omr-agentcore--7486704100823265938/src/memplugin";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "AgentExtensions.h";
+         sourceTree = "<group>";
       };
       "OBJ_910" = {
          isa = "XCConfigurationList";
@@ -10018,7 +10016,8 @@
       };
       "OBJ_92" = {
          isa = "PBXFileReference";
-         path = "MemoryPlugin.cpp";
+         name = "module.modulemap";
+         path = "/Users/ST20591/git/swift/kituraSample/kituraSample.xcodeproj/GeneratedModuleMap/agentcore/module.modulemap";
          sourceTree = "<group>";
       };
       "OBJ_920" = {
@@ -10104,9 +10103,9 @@
             "OBJ_94",
             "OBJ_95"
          );
-         name = "include";
-         path = "include";
-         sourceTree = "<group>";
+         name = "envplugin";
+         path = ".build/checkouts/omr-agentcore-8175019746655520454/src/envplugin";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_930" = {
          isa = "XCBuildConfiguration";
@@ -10118,13 +10117,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -10171,13 +10170,13 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CCurl",
-               "$(SRCROOT)/.build/checkouts/Kitura-net.git--1310368258332390371/Sources/CHTTPParser/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CCurl",
+               "$(SRCROOT)/.build/checkouts/Kitura-net.git--6668553104715935483/Sources/CHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -10223,11 +10222,11 @@
       };
       "OBJ_933" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_34";
+         fileRef = "OBJ_32";
       };
       "OBJ_934" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_35";
+         fileRef = "OBJ_33";
       };
       "OBJ_935" = {
          isa = "PBXFrameworksBuildPhase";
@@ -10273,7 +10272,7 @@
       };
       "OBJ_94" = {
          isa = "PBXFileReference";
-         path = "MemoryPlugin.h";
+         path = "envplugin.cpp";
          sourceTree = "<group>";
       };
       "OBJ_940" = {
@@ -10317,9 +10316,12 @@
          fileRef = "Configuration::Configuration::Product";
       };
       "OBJ_95" = {
-         isa = "PBXFileReference";
-         name = "module.modulemap";
-         path = "/Users/ST20591/git/swift/kituraSample/kituraSample.xcodeproj/GeneratedModuleMap/memplugin/module.modulemap";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_96"
+         );
+         name = "include";
+         path = "include";
          sourceTree = "<group>";
       };
       "OBJ_950" = {
@@ -10363,12 +10365,9 @@
          target = "SwiftMetrics::SwiftMetricsKitura";
       };
       "OBJ_96" = {
-         isa = "PBXGroup";
-         children = (
-         );
-         name = "mqttplugin";
-         path = ".build/checkouts/omr-agentcore--7486704100823265938/src/mqttplugin";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "envplugin.h";
+         sourceTree = "<group>";
       };
       "OBJ_960" = {
          isa = "PBXTargetDependency";
@@ -10416,8 +10415,8 @@
             "OBJ_98",
             "OBJ_99"
          );
-         name = "envplugin";
-         path = ".build/checkouts/omr-agentcore--7486704100823265938/src/envplugin";
+         name = "hcapiplugin";
+         path = ".build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_970" = {
@@ -10471,11 +10470,11 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -10514,7 +10513,7 @@
       };
       "OBJ_98" = {
          isa = "PBXFileReference";
-         path = "envplugin.cpp";
+         path = "APIConnector.cpp";
          sourceTree = "<group>";
       };
       "OBJ_980" = {
@@ -10527,11 +10526,11 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/memplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/cpuplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/envplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/hcapiplugin/include",
-               "$(SRCROOT)/.build/checkouts/omr-agentcore--7486704100823265938/src/agentcore/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/memplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/cpuplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/envplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/hcapiplugin/include",
+               "$(SRCROOT)/.build/checkouts/omr-agentcore-8175019746655520454/src/agentcore/include",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/memplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/hcapiplugin",
                "$(SRCROOT)/kituraSample.xcodeproj/GeneratedModuleMap/agentcore"
@@ -10577,11 +10576,11 @@
       };
       "OBJ_982" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_42";
+         fileRef = "OBJ_45";
       };
       "OBJ_983" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_43";
+         fileRef = "OBJ_46";
       };
       "OBJ_984" = {
          isa = "PBXFrameworksBuildPhase";
@@ -10620,7 +10619,8 @@
       "OBJ_99" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_100"
+            "OBJ_100",
+            "OBJ_101"
          );
          name = "include";
          path = "include";
